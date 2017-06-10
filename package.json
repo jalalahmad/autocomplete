@@ -1,0 +1,19 @@
+{
+  "name": "autocomplete",
+  "version": "0.0.1",
+  "description": "autocomplete based on nodejs and express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jalalahmad/autocomplete.git"
+  },
+  "author": "",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/jalalahmad/autocomplete/issues"
+  },
+  "homepage": "https://github.com/jalalahmad/autocomplete#readme"
+}
