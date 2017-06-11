@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/jalalahmad/autocomplete/issues"
   },
-  "homepage": "https://github.com/jalalahmad/autocomplete#readme"
+  "homepage": "https://github.com/jalalahmad/autocomplete#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
 }
