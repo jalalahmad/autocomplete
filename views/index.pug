@@ -3,3 +3,18 @@ extends layout
 block content
   h1= title
   p Welcome to #{title}
+  #category.ui-widget
+    label(for="categories") Select a category:
+    input#categories
+  #product.ui-widget
+    label(for="products") Select a product:
+    input#products
+  script.
+    $("#categories").autocomplete({
+        source: "/categories/autocomplete/",
+        minLength: 2
+    });
+    $("#products").autocomplete({
+        source: '/products/autocomplete/',
+        minLength: 2
+    });
