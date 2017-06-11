@@ -1,5 +1,5 @@
 {
-  "name": "autocomplete",
+  "name": "autocomplete-implementation",
   "version": "0.0.1",
   "description": "autocomplete based on nodejs and express",
   "scripts": {
@@ -16,6 +16,7 @@
   },
   "homepage": "https://github.com/jalalahmad/autocomplete#readme",
   "dependencies": {
+    "autocomplete": "0.0.1",
     "body-parser": "^1.17.2",
     "cookie-parser": "^1.4.3",
     "debug": "^2.6.8",
