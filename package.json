@@ -24,6 +24,6 @@
     "morgan": "^1.9.1",
     "pug": "^2.0.0-rc.2",
     "serve-favicon": "^2.5.0",
-    "underscore": "^1.12.0"
+    "underscore": "^1.12.1"
   }
 }
