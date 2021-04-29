@@ -1,0 +1,16 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "10:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: underscore
+    versions:
+    - 1.12.1
+    - 1.13.0
+  - dependency-name: pug
+    versions:
+    - 3.0.0
